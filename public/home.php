@@ -34,14 +34,14 @@
                         </form>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="javascript:window.location.reload(true)">Home</a>
                     </li>
                     <li class="nav-item dropbdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
                         <div class="dropdown-menu profile-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Setting</a>
+                            <a class="dropdown-item" href="settings.php" target="_blank">Setting</a>
                             <div class="dropdown-divider"></div>
-                            <button class="dropdown-item" href="#" >Logout</button>
+                            <a class="dropdown-item" href="index.php" >Logout</a>
                         </div>
                     </li>
                 </ul>
